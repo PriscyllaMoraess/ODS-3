@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+.logo img{
+    height: 70px;
+    width:auto;
+
+}
+#menu .logo p{
+    color: #5cb356;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 13%;
+}
+#menu .lista{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lista a {
+    padding: 15px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.lista a:link{
+    color:rgb(32, 64, 194)
+}
+
+.lista a:visited{
+    color: #5cb356;
+}
+
+.lista a:hover{
+    background-color: #e1f2c8;
+}
+
+.lista a:active{
+    background-color: #196b14;
+}
+
+#menu .lista li {
+    display: inline;
+    margin-right: 30px;
+}
+
+#capa{
+    background: url(./img/fundo.jpg) center center/cover;
+    box-shadow: rgba(136, 136, 136, 0.77);
+    height: 100vh;
+    width: 100%;
+}
+
+#capa .title{
+    font-size: 70px;
+    color:#5cb356;
+    font-weight: bold;
+    text-align: center;
+    padding: 22%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+section{
+    padding: 20px;
+    align-items: center;
+}
+
+h2{
+    padding: 20px;
+    font-size: 40px;
+    color: #196b14;
+    text-align: center;
+}
+
+#ODS{
+    background-color: rgba(23, 161, 14, 0.665);
+    color:#fff;
+    padding: 10px;
+}
+
+.texto{
+    justify-content: center;
+    text-align: justify;
+    padding: 20px 20px 10px;
+    font-size: large;
+    padding-bottom: 40px;
+}
+
+#ODS img{
+    width: 60%;
+    padding: 0 20px 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons{
+    display: block;
+    margin-top: 55px;
+}
+
+.buttons button{
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    border:none;
+    display: inline;
+}
+
+#projeto{
+    background: #e1f2c8;
+    display: block;
+}
+
+#projeto .img{
+    border: 5px solid #5cb356;
+}
+
+.video{
+    justify-content: center;
+    padding: 0 20px 20px 500px;
+}
+
+.imagem{
+    padding: 10px 20px 10px 20px;
+    width: 40%;
+    height: auto;
+}
+
+#onde .icone {
+    width: 10%;
+    justify-items: center;
+}
+
+#onde .lugares{
+    justify-content: center;
+}
+
+#sobre{
+    background: #e1f2c8;
+}
+
+#sobre img{
+    border-radius: 80%;
+    border: 2px solid #0e9240;
+    margin-bottom: 18px;
+    width: 200px;
+}
+
+.sobre-mim{
+    display: flex;
+}
+
+footer{
+    background-color: #fff;
+    border: #5cb356;
+    color:#2bc023
+}
+
